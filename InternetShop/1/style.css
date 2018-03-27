@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+@font-face {
+    font-family: ProximaNova; 
+    src: url(fonts/ProximaNova.ttf);
+   }
+
+.block {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.article {
+    width: 105.7px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 11.8px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #bfbfbf;
+    background-color: #ffffff;
+    float: right;
+    margin-right: 24px;
+}
+
+.Image-zone {
+    width: 277.3px;
+    height: 200px;
+    object-fit: contain;
+    background-color: #ffffff;
+    margin-left: 38px;
+}
+
+.availability {
+    width: 80px;
+    height: 16px;
+    font-family: ProximaNova;
+    font-size: 12.8px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #81c03d;
+    background-color: #ffffff;
+    margin-left: 38px;
+}
+
+.canon {
+    margin-top: 5px;
+    width: 219.8px;
+    height: 66px;
+    font-family: ProximaNova;
+    font-size: 17.8px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    background-color: #ffffff;
+    margin-left: 38px;
+}
+
+.desc_item {
+    width: 221.8px;
+    height: 110px;
+    font-family: ProximaNova;
+    font-size: 11.8px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    background-color: #ffffff;
+    margin-left: 38px;
+    line-height: inherit;
+}
+
+.desc_value {
+    color: #4f4f4f;
+    background-color: #ffffff;
+}
+
+.desc_item_inner {
+    background-color: #ffffff;
+}
+
+.buttons {
+    position: absolute;
+    display: inline;
+}
+
+.btn_buy {
+    width: 99px;
+    height: 35px;
+    background-color: #0284c6;
+    color: white;
+    margin-top: 47px;
+    float: left;
+    border: none;
+    margin-bottom: 35px;
+    margin-left: 38px;
+}
+
+.btn_buy>span {
+    width: 44px;
+    height: 17px;
+    font-family: ProximaNova;
+    font-size: 13.8px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0284c6;
+    
+}
+
+.btn_lv {
+    margin-top: 52px;
+    margin-right: 5px;
+    float: right;
+    background-color: #ffffff;
+    color: dimgrey;
+}
+
+.ShowRes {
+    height: 35px;
+    background-color: #0284c6;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ClearFilter {
+    width: 80%;
+    margin-left: 10%;
+  height: 35px;
+  background-color: #f8f8f8;
+  color: black;
+  border: none;
+}
+
+.manufacturer {
+    width: 123px;
+    
+    font-family: ProximaNova;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.checkboxes {
+    margin-left: 10%;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10%;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  background-color: white;
+}
